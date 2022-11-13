@@ -1,0 +1,36 @@
+.section1__title {
+  background-color: darkgray;
+  color: brown;
+}
+.section1__list {
+  list-style: none;
+  margin: 0;
+  padding: 10px;
+  background-color: darkgray;
+}
+.section1__list-item {
+  background-color: tomato;
+  padding: 20px;
+  border: 2px solid black;
+}
+.section1__list-item:not(:last-child) {
+  margin-bottom: 5px;
+}
+@media (max-width: 480px) {
+  .section1__list {
+    background-color: red;
+  }
+}
+.section1__responsive {
+  max-width: 600px;
+}
+@media (max-width: 480px) {
+  .section1__adaptive {
+    width: 200px;
+  }
+}
+@media (max-width: 650px) {
+  .section1__adaptive {
+    width: 400px;
+  }
+}
