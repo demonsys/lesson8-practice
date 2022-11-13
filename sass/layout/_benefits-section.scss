@@ -2,7 +2,11 @@
   padding-bottom: 0;
 
   &__list {
-    // display: flex;
+    @media screen and (min-width: $tablet) {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
     @extend %list;
   }
   // &__item {

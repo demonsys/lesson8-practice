@@ -886,6 +886,15 @@ img {
 .benefits {
   padding-bottom: 0;
 }
+@media screen and (min-width: 768px) {
+  .benefits__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
 .benefits__thumb {
   height: 120px;
   background-color: var(--secondary-bcg-color);
